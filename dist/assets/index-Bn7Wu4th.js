@@ -45,7 +45,7 @@ Error generating stack: `+i.message+`
   .visible-item {
     opacity: 1;
     transform: translateY(0);
-    transition: opacity 0.4s ease-in-out, transform 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
   }
   .soft-subtle-shadow {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
