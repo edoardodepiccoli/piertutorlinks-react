@@ -28,6 +28,7 @@ function Header() {
         src={image} // Ensure this path is correct
         alt=""
         width="300px"
+        height="300px"
       />
       <h1 className="font-bold text-4xl text-center mb-2">
         Consigliati da Piertutor!
