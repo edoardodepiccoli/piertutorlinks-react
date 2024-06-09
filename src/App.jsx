@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import items from "./data.js";
+import image from "./images/headshot-square.jpg";
 
 // CSS Styles (adjust as needed)
 const styles = `
@@ -24,7 +25,7 @@ function Header() {
       <img
         className="rounded-full mb-6"
         style={{ width: "75%", maxWidth: "300px" }} // Adjust these values as needed
-        src="src/images/headshot-square.jpg" // Ensure this path is correct
+        src={image} // Ensure this path is correct
         alt=""
         width="300px"
       />
